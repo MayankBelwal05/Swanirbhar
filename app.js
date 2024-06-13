@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const swaggerConfig = require("./swaggerConfig");
 
 const app = express();
 
@@ -15,6 +16,9 @@ db.sequelize.sync();
 require("./routes/auth.routes")(app);
 require("./routes/course.routes")(app);
 require("./routes/progress.routes")(app);
+
+// Swagger API documentation
+swaggerConfig(app);
 
 // Simple route
 app.get("/", (req, res) => {
