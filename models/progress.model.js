@@ -11,3 +11,7 @@ module.exports = (sequelize, Sequelize) => {
 
     return Progress;
 };
+
+
+//INSERT INTO progresses (progress, userId, courseId, createdAt, updatedAt) 
+//VALUES (50, 1, 1, NOW(), NOW());

@@ -32,3 +32,5 @@ module.exports = (sequelize, Sequelize) => {
 
     return User;
 };
+
+// INSERT INTO users (username, email, password, role, createdAt, updatedAt)  VALUES ('Mayank Belwal', 'mayank@gmail.com', 'securepassword', 'student', NOW(), NOW());

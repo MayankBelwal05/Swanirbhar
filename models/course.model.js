@@ -12,3 +12,6 @@ module.exports = (sequelize, Sequelize) => {
 
     return Course;
 };
+
+
+// INSERT INTO courses (title, description, createdAt, updatedAt)  VALUES ('Python 101', 'Introduction to Python', NOW(), NOW());
