@@ -65,9 +65,6 @@ Explore the detailed API documentation using Swagger after running the applicati
 ## Testing
 Automated testing can be implemented using tools like Jest and Supertest to ensure API endpoints function correctly.
 
-## Deployment
-Deploy the API to a cloud service provider like AWS, Heroku, or Azure for production use.
-
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
