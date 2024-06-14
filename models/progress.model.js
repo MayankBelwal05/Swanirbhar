@@ -5,6 +5,8 @@ module.exports = (sequelize, Sequelize) => {
             allowNull: false,
             defaultValue: 0
         }
+    }, {
+        timestamps: false  // Disable timestamps
     });
 
     return Progress;

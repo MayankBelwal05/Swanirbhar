@@ -17,6 +17,16 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.ENUM,
             values: ['student', 'teacher'],
             defaultValue: 'student'
+        },
+        createdAt: {
+            type: Sequelize.DATE,
+            allowNull: false,
+            defaultValue: Sequelize.literal('CURRENT_TIMESTAMP')
+        },
+        updatedAt: {
+            type: Sequelize.DATE,
+            allowNull: false,
+            defaultValue: Sequelize.literal('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP')
         }
     });
 
