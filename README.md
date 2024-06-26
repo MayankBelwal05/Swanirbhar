@@ -35,7 +35,7 @@ npm install
 Create a `.env` file in the root directory and add your environment-specific variables, such as:
 
 4. **Database configuration:**
-Configure your MySQL database details in `config/db.config.js` file.
+Configure your MySQL database details in `config/db.config.js` available file.
 
 5. **Run the application:**
 ```
