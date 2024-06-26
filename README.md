@@ -20,6 +20,7 @@ The Course Management API is designed to support a Learning Management System (L
 - **JWT (JSON Web Tokens)**: Securely transmit information between parties as a JSON object.
 
 ## Setup and Installation
+
 1. **Clone the repository:**
 ```
 git clone
@@ -34,7 +35,7 @@ npm install
 Create a `.env` file in the root directory and add your environment-specific variables, such as:
 
 4. **Database configuration:**
-Configure your MySQL database details in `config/db.config.js`.
+Configure your MySQL database details in `config/db.config.js` file.
 
 5. **Run the application:**
 ```
